@@ -1,0 +1,70 @@
+:root {
+  --color-primary: #4A90D9;
+  --color-primary-light: #7CB3F0;
+  --color-success: #4CAF50;
+  --color-success-light: #81C784;
+  --color-warning: #FF9800;
+  --color-danger: #F44336;
+  --color-bg: #FFF8F0;
+  --color-card: #FFFFFF;
+  --color-text: #333333;
+  --color-text-light: #777777;
+  --color-border: #E0E0E0;
+  --color-mastery-0: #E0E0E0;
+  --color-mastery-1: #FFCDD2;
+  --color-mastery-2: #FFE0B2;
+  --color-mastery-3: #FFF9C4;
+  --color-mastery-4: #C8E6C9;
+  --color-mastery-5: #A5D6A7;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 2px 8px rgba(0,0,0,0.1);
+  --nav-height: 70px;
+  --header-height: 56px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: inherit;
+  color: inherit;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
